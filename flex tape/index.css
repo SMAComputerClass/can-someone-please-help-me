@@ -1,0 +1,22 @@
+
+
+      #board {
+        display: flex;
+        width: 450px;
+        height: 450px;
+        flex-direction: row;
+        flex-wrap:wrap;
+        flex-start;}
+      .square {
+        height: 150px;
+        width: 150px;
+        box-sizing: border-box;
+        border: 5px solid coral;
+        font-size: 5em;
+        display: flex;
+         center;
+        align-items: center;}
+
+      .square:hover {
+        cursor: pointer;
+      }
